@@ -1,0 +1,17 @@
+abbreviation
+aircraft
+airfare
+airline
+airport
+capacity
+cheapest
+city
+distance
+flight
+flight_no
+flight_time
+ground_fare
+ground_service
+meal
+quantity
+restriction
