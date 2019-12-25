@@ -45,7 +45,7 @@ class LatticeFromPlfExtractor:
         with open(args.out_file, 'w') as csvfile:
             writer = csv.DictWriter(
                 csvfile,
-                ["id", "text", "labels", "ref", "dist"]
+                sorted(new_dataset[0].keys())
             )
             writer.writeheader()
             writer.writerows(new_dataset)
