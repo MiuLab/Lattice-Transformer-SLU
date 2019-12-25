@@ -1,0 +1,6 @@
+numpy
+scipy
+pytorch_pretrained_bert==0.6.2
+tqdm
+scikit-learn
+graphviz
