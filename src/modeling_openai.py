@@ -33,7 +33,6 @@ from torch.nn.parameter import Parameter
 
 from pytorch_pretrained_bert.file_utils import cached_path, CONFIG_NAME, WEIGHTS_NAME
 from pytorch_pretrained_bert.modeling import BertLayerNorm as LayerNorm
-from pytorch_pretrained_bert.modeling_gpt2 import prune_conv1d_layer
 
 logger = logging.getLogger(__name__)
 

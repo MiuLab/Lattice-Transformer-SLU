@@ -26,8 +26,9 @@ import torch
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler,
                               TensorDataset)
 from sklearn.metrics import f1_score
-from pytorch_pretrained_bert import (OpenAIGPTDoubleHeadsClsModel, OpenAIGPTTokenizer,
-                                     OpenAIAdam, cached_path, WEIGHTS_NAME, CONFIG_NAME)
+from pytorch_pretrained_bert import OpenAIAdam, cached_path, WEIGHTS_NAME, CONFIG_NAME
+from modeling_openai import OpenAIGPTDoubleHeadsClsModel
+from tokenization_openai import OpenAIGPTTokenizer
 from lattice_utils import LatticeReader, LatticeNode, Lattice
 
 ROCSTORIES_URL = "https://s3.amazonaws.com/datasets.huggingface.co/ROCStories.tar.gz"
