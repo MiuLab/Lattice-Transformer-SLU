@@ -1,5 +1,7 @@
 Adapting Pretrained Transformer to Lattices for Spoken Language Understanding
 ===
+[Paper](https://www.csie.ntu.edu.tw/~yvchen/doc/ASRU19_LatticeSLU.pdf)
+
 This repo contains source code of our ASRU 2019 paper "*Adapting Pretrained Transformer to Lattices for Spoken Language Understanding*"
 
 
